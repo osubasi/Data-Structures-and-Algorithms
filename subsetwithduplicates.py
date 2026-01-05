@@ -1,4 +1,6 @@
-  def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+# Omer Subasi
+
+def subsetsWithDup(nums):
       res = set()
       curr = []
       def backtrack(i):
