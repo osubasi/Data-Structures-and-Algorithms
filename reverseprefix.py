@@ -1,4 +1,6 @@
-def reversePrefix(self, word: str, ch: str) -> str:
+# Omer Subasi
+
+def reversePrefix(word, ch):
         res = ''
         idx = -1
         for i in range(len(word)):
