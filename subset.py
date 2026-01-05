@@ -1,4 +1,6 @@
-def subsets(self, nums: List[int]) -> List[List[int]]:
+# Omer Subasi
+
+def subsets(nums):
         res = []
         curr = []
         def backtrack(i):
