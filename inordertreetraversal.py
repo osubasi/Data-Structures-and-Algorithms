@@ -4,7 +4,7 @@ class TreeNode:
         self.val = val
         self.left = left
         self.right = right
-class Solution:
+
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         res = []
         def dfs(node):
