@@ -14,7 +14,6 @@ Algorithms, data structures, and solution techniques include:
 - Trees
 - Graphs
 - Binary Search
-- Sorting: Quicksort, Mergesort
+- Sorting
 - Intervals
-- Tries
   
