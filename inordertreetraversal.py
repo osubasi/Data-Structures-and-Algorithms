@@ -1,11 +1,12 @@
-# Definition for a binary tree node.
+# Omer Subasi
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
 
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def inorderTraversal(root):
         res = []
         def dfs(node):
             if node is None:
