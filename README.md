@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 
-# My solutions to Leet-Code style data structures and algorithms interview problems in Python.
+## My solutions to Leet-Code style data structures and algorithms interview problems in Python.
 
 Algorithms, data structures, and solution techniques include:
 - Two pointers
