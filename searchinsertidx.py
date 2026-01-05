@@ -1,6 +1,6 @@
 # Omer Subasi
 
-def searchInsert(nums target):
+def searchInsert(nums, target):
     l, r = 0, len(nums) - 1
     while l <= r:
         mid = (l + r) // 2
