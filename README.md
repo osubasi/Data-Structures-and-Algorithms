@@ -11,8 +11,10 @@ Algorithms, data structures, and solution techniques include:
 - Greedy Programming
 - Arrays, Heaps, Stacks, Queues
 - Linked Lists
+- Sets and Maps
 - Trees
 - Graphs
+- Matrices
 - Divide-and-Conquer: Binary Search
 - Sorting
 - Bit Manipulation
