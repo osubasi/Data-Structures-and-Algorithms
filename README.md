@@ -15,5 +15,7 @@ Algorithms, data structures, and solution techniques include:
 - Graphs
 - Binary Search
 - Sorting
+- Bit Manipulation
+- Math
 - Intervals
   
