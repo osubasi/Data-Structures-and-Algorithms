@@ -1,0 +1,16 @@
+# Omer Subasi
+
+class ListNode:
+     def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    pa, pb = headA, headB
+    
+    while pa != pb:
+        pa = pa.next if(pa) else headB
+        pb = pb.next if(pb) else headA
+    
+    return pa
