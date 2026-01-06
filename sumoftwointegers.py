@@ -1,4 +1,4 @@
 # Omer Subasi
 
-def getSum(self, a: int, b: int) -> int:
+def getSum(a, b):
       return int(log2(2**a * 2**b))
