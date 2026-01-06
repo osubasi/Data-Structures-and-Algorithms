@@ -13,7 +13,7 @@ Algorithms, data structures, and solution techniques include:
 - Linked Lists
 - Trees
 - Graphs
-- Binary Search
+- Divide-and-Conquer: Binary Search
 - Sorting
 - Bit Manipulation
 - Math
