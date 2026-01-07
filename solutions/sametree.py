@@ -6,15 +6,15 @@ class TreeNode:
       self.left = left
       self.right = right
 
-  def isSameTree(p, q):
-      if p == q == None:
-          return True
-      if p and q and p.val != q.val:
-          return False
-      if (not p and q) or (p and not q):
-          return False
-      
-      l = self.isSameTree(p.left, q.left)
-      r = self.isSameTree(p.right, q.right)
+def isSameTree(p, q):
+    if p == q == None:
+        return True
+    if p and q and p.val != q.val:
+        return False
+    if (not p and q) or (p and not q):
+        return False
     
-      return l and r
+    l = isSameTree(p.left, q.left)
+    r = isSameTree(p.right, q.right)
+  
+    return l and r
