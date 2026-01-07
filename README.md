@@ -8,7 +8,7 @@ Algorithms, data structures, and solution techniques include:
 - Sliding Windows
 - Prefixes
 - Dynamic Programming
-- Greedy Programming
+- Greedy Algorithms
 - Arrays, Heaps, Stacks, Queues
 - Linked Lists
 - Sets and Maps
