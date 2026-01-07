@@ -5,7 +5,7 @@ class ListNode:
       self.val = val
       self.next = next
 
-def middleNode(self, head: Optional[ListNode]) -> Optional[ListNode]:
+def middleNode(head):
     if not head or not head.next:
         return head
     slow = head
