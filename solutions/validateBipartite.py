@@ -11,7 +11,7 @@ def validateBipartite(graph):
         return True    
 
     colors = [0] * len(graph)
-    for i in range(len(graph)):
-        if colors[i] == 0 and not dfs(i, 1, graph, colors):
+    for node in range(len(graph)):
+        if colors[node] == 0 and not dfs(node, 1, graph, colors):
             return False
     return True
