@@ -2,11 +2,11 @@
 
 def longestIncreasingPathMatrix(matrix):
     def dfs(r, c, matrix, memo):
-        m = len(matrix)
-        n = len(matrix[0])
         if memo[r][c] != 0:
             return memo[r][c]
         max_pth = 1
+        m = len(matrix)
+        n = len(matrix[0])
         for d in [(-1, 0), (1, 0), (0, 1), (0, -1)]:
             n_r = r + d[0]
             n_c = c + d[1]
