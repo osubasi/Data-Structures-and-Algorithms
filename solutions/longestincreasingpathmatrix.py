@@ -12,7 +12,6 @@ def longestIncreasingPathMatrix(matrix):
             n_c = c + d[1]
             if (0 <= n_r < m and 0 <= n_c < n and matrix[n_r][n_c] > matrix[r][c]):
                 max_pth = max(max_pth, 1 + dfs(n_r, n_c, matrix, memo))
-
         memo[r][c] = max_pth
         return max_pth
 
