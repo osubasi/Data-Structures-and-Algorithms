@@ -2,7 +2,7 @@
 
 ## My solutions to Leet-Code style data structures and algorithms study problems in Python.
 
-## 82 Questions: ~52 Easy, ~24 Medium and ~4 Hard Questions
+## 82 Questions: ~52 Easy, ~24 Medium and ~4 Hard questions.
 
 Algorithms, data structures, and solution techniques include:
 - Two pointers
